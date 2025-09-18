@@ -11,7 +11,7 @@ class Ferentin < Formula
   on_macos do
     on_intel do
       url "https://github.com/ferentin-net/ferentin-cli-dist/releases/download/v0.1.1/ferentin_v0.1.1_darwin_amd64.tar.gz"
-      sha256 "d6cb40af5ac5b634f02afe71a1c0cd454d29b5495c40a315c6233e8a637663c9"
+      sha256 "114cfe536518eea13af2c28377a837fdd1e721777f90f3d2868ee5faf0fca1b7"
 
       def install
         bin.install "ferentin"
@@ -19,7 +19,7 @@ class Ferentin < Formula
     end
     on_arm do
       url "https://github.com/ferentin-net/ferentin-cli-dist/releases/download/v0.1.1/ferentin_v0.1.1_darwin_arm64.tar.gz"
-      sha256 "64c03f475e4992f27df6c49586190de678efd5f61131614e48990041dfe92e0a"
+      sha256 "0206c0539856ff853268a4d87bb015e5a0febde66f343a74d4908dc6f3c78ef4"
 
       def install
         bin.install "ferentin"
@@ -31,7 +31,7 @@ class Ferentin < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/ferentin-net/ferentin-cli-dist/releases/download/v0.1.1/ferentin_v0.1.1_linux_amd64.tar.gz"
-        sha256 "dae48e4a47189a3b92ce9d488c3979ae51e6184d5b9f703d8dfd2740659321be"
+        sha256 "8d8b1762b7a8915a1e0e24742d9c64c4aa6ea63d14e7d02505f5dca26d61fcec"
 
         def install
           bin.install "ferentin"
@@ -41,7 +41,7 @@ class Ferentin < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/ferentin-net/ferentin-cli-dist/releases/download/v0.1.1/ferentin_v0.1.1_linux_arm64.tar.gz"
-        sha256 "f2155668556ef9315b20df7f58eb66fdfae770b3a3de3f98616e5aef27f45b0f"
+        sha256 "a997bd15204a8d9ead40b0fc683c9140df7de30e86375d0c87c8fda01edf6b60"
 
         def install
           bin.install "ferentin"
