@@ -5,21 +5,21 @@
 class Ferentin < Formula
   desc "Ferentin CLI - Secure OIDC authentication for CLI tools"
   homepage "https://www.ferentin.com"
-  version "0.2.3"
+  version "0.2.5"
   license "Proprietary"
 
   on_macos do
     on_intel do
-      url "https://github.com/ferentin-net/ferentin-cli-dist/releases/download/v0.2.3/ferentin_v0.2.3_darwin_amd64.tar.gz"
-      sha256 "00f2fd4c7e24464534aa49cdd12d5e474f36947b99994c8872b41fa0d676e7c5"
+      url "https://github.com/ferentin-net/ferentin-cli-dist/releases/download/v0.2.5/ferentin_v0.2.5_darwin_amd64.tar.gz"
+      sha256 "c81887a381fbb934e728588f661440217f4986ba80b943503f1f36c2b529d6c4"
 
       def install
         bin.install "ferentin"
       end
     end
     on_arm do
-      url "https://github.com/ferentin-net/ferentin-cli-dist/releases/download/v0.2.3/ferentin_v0.2.3_darwin_arm64.tar.gz"
-      sha256 "c44087ed8118d487cd6f183852b4a4d860829039d15ae900bc7b3edabf7c1729"
+      url "https://github.com/ferentin-net/ferentin-cli-dist/releases/download/v0.2.5/ferentin_v0.2.5_darwin_arm64.tar.gz"
+      sha256 "c7c01b406c7356f9db52e88c1a0bbb57d262394f1239d50f6abec32c0956aa9a"
 
       def install
         bin.install "ferentin"
@@ -30,8 +30,8 @@ class Ferentin < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ferentin-net/ferentin-cli-dist/releases/download/v0.2.3/ferentin_v0.2.3_linux_amd64.tar.gz"
-        sha256 "08d72d9b84d6b964e5db37bc963f0830fae3241db87635f5b746be6f0015f651"
+        url "https://github.com/ferentin-net/ferentin-cli-dist/releases/download/v0.2.5/ferentin_v0.2.5_linux_amd64.tar.gz"
+        sha256 "c4e81db9f71d7846e5f945e8d624df5369ec8b74de21344458d93600a0ec7f09"
 
         def install
           bin.install "ferentin"
@@ -40,8 +40,8 @@ class Ferentin < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ferentin-net/ferentin-cli-dist/releases/download/v0.2.3/ferentin_v0.2.3_linux_arm64.tar.gz"
-        sha256 "1032bfcdb4b197ee9259b7ced87397ed38b11a168f4443fee3343a3984b6223b"
+        url "https://github.com/ferentin-net/ferentin-cli-dist/releases/download/v0.2.5/ferentin_v0.2.5_linux_arm64.tar.gz"
+        sha256 "ca51077bf8c1305c237ab5adbc890d4d9758acd8817c0faf993508ff17c2280a"
 
         def install
           bin.install "ferentin"
