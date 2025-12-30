@@ -3,7 +3,7 @@ cask "ferentin" do
   name "ferentin"
   desc "Ferentin CLI - Secure OIDC authentication for CLI tools"
   homepage "https://www.ferentin.com"
-  version "2.5.6"
+  version "2.5.7"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "ferentin" do
   on_macos do
     on_intel do
       url "https://github.com/ferentin-net/ferentin-cli-dist/releases/download/v#{version}/ferentin_v#{version}_darwin_amd64.tar.gz"
-      sha256 "ab7cbed42f36b3cf5edf6ecf4c7db514bb75bb7307a3240272fd0587b50aee42"
+      sha256 "a430d69842a4c492e7ce6ceb39fb6bb8fb18d2b4e298e74ebc56e86c99a7a707"
     end
     on_arm do
       url "https://github.com/ferentin-net/ferentin-cli-dist/releases/download/v#{version}/ferentin_v#{version}_darwin_arm64.tar.gz"
-      sha256 "c24e8f78f43e63ba11906d72b2e808ad332a3e508559ae45487433b3a1a2d232"
+      sha256 "63eb7f39255bd72b23594a0ec6d1f9c80719f3a6a28cf5b675849dd23c710198"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ferentin-net/ferentin-cli-dist/releases/download/v#{version}/ferentin_v#{version}_linux_amd64.tar.gz"
-      sha256 "b3d99714e294186f7ff47f887b0ceee77eff11c2fc3ead21f4efebbc2ed32737"
+      sha256 "a6bf2fce9d6244dd976f3fefb69c2edefd693befa573e8911d7c4611e010d2f1"
     end
     on_arm do
       url "https://github.com/ferentin-net/ferentin-cli-dist/releases/download/v#{version}/ferentin_v#{version}_linux_arm64.tar.gz"
-      sha256 "5e811b07c4631b8b26ba256f65e9f675e80b5bdd89084841ce5ae7e289dc77e5"
+      sha256 "1c780663f1bc25fc79d1423b4485a967de2cd51fe8d8dc18146d461cbc9acf9d"
     end
   end
 
