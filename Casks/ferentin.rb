@@ -3,21 +3,21 @@ cask "ferentin" do
   depends_on arch: :arm64
   depends_on macos: ">= :sequoia"
 
-  version "4.3.9"
+  version "4.4.0"
 
   on_macos do
     on_arm do
-      sha256 "ff32b31f459dd9590ae8cdf7bfca453ac88f9a78aee515a4e94a2e8ba5ae8fba"
+      sha256 "7fa80f0cd7b979222dff47eada80871313ce0886281207e19784d9f9c7a19b5a"
       url "https://github.com/ferentin-net/ferentin-cli-dist/releases/download/v#{version}/ferentin_v#{version}_darwin_arm64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "b45cb30ed98926f81d5a65b66e4b1543912926c752aa9c7e400fa546248afca6"
+      sha256 "6214ffd27f68c4d98eb9c616198c6efb91dae0f40feab3a27d57dfdecdd9a50c"
       url "https://github.com/ferentin-net/ferentin-cli-dist/releases/download/v#{version}/ferentin_v#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "f38ce72926a8d45357dbef5d6c55200603cf7aab84c1abe63f0f43b98d11b421"
+      sha256 "edd645ffb746c5b9d23c41ce7a0a649ef13974020fb341ed2edc8552f55a086e"
       url "https://github.com/ferentin-net/ferentin-cli-dist/releases/download/v#{version}/ferentin_v#{version}_linux_amd64.tar.gz"
     end
   end
